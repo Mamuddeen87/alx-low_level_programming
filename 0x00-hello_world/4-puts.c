@@ -1,6 +1,6 @@
 /**
- * main - a program that prints text we were given by tthe alx
- * return: 0  (success)
+ * main - a program that prints a line with puts function
+ * Return: 0 (success)
  */
 int main(void)
 {

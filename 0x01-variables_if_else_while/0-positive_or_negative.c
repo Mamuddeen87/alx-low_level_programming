@@ -1,29 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- *main - a program to assign a random number to the variable n each
+ * main - program to creat combo
  *
- *Return: 0 (Success)
+ * Return: 0 (Success)
  */
-
 int main(void)
 {
-	int n;
+	int m, n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	for (m = '0'; m <= '9'; m++)
 	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
-	{
-		printf("%d is negative\n", n);
+		for (n = '0'; n <= '9'; n++)
+		putchar(m + 'n');
+		putchar(',');
+		putchar('\n');
 	}
 	return (0);
 }

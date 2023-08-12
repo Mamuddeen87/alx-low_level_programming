@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	putchar("this is the first");
 	return (0);
 }

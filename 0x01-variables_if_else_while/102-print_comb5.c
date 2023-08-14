@@ -13,7 +13,7 @@ int main(void)
 		for (j = i + 1; j < 100; j++)
 			if (i != j)
 			{
-				printf("%d %d, i, j");
+				printf("%02d %02d", i, j);
 				if (i != 98 || j != 99)
 					printf(", ");
 			}

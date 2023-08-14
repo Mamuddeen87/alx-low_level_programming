@@ -13,12 +13,9 @@ int main(void)
 		for (j = i + 1; j <= 8; j++)
 			for (k = j + 1; k <= 9; k++)
 			{
-				if (i != j != k)
-				{
-					printf("%d%d%d", i, j, k);
-					if (i != 7)
-						printf(", ");
-				}
+				printf("%d%d%d", i, j, k);
+				if (i != 7)
+					printf(", ");
 			}
 	}
 	putchar('\n');

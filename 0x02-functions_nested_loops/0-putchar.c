@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <main.h>
 /**
- * main - A program to print _putchar followed by a new line.
+ * main - a program to print _putchar followed  by a new line
  *
- * Return: 0 (Success)
+ * return: 0 (Success)
+ */
+/* 
+ * main - program to print given string
+ * return: 0 (Success)
  */
 int main(void)
 {

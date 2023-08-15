@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
-/**
- * main - program to print 10 times the alphabet
- *
- * return: 0 (Success)
- */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 

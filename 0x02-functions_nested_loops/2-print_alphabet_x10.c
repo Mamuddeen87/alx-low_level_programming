@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "main.h"
 /**
  * main - program to print 10 times the alphabet
  *
@@ -16,7 +15,7 @@ int main(void)
 		{
 			putchar(j);
 		}
+		putchar('\n');
 	}
-	putchar('\n');
 	return (0);
 }

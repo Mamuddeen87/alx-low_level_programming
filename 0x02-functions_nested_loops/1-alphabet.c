@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * main - a program that prints alphabet in lowwercase
+ *
+ * Return: Always 0.
+ */
 void print_alphabet(void)
 {
 	int a;

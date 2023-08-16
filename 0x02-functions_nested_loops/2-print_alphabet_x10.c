@@ -1,3 +1,4 @@
+/* print_alphabet_x10 - print the alphabets */
 void print_alphabet_x10(void)
 {
 	int i, j;
@@ -6,7 +7,7 @@ void print_alphabet_x10(void)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			putchar(j);
+			printf("%d", j);
 		}
 		putchar('\n');
 	}

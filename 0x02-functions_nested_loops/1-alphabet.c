@@ -4,6 +4,7 @@
  *
  * Return: Always 0.
  */
+/* print_alphabet - prints the alphabets*/
 void print_alphabet(void)
 {
 	int a;

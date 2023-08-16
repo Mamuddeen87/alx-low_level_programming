@@ -1,9 +1,20 @@
 void print_to_98(int n)
 {
-	for (n < 98; n++;)
+	if (n < 98)
 	{
-		putchar('n');
-		putchar(',');
-		putchar(' ');
+	for (int i = n; i < 98; i++)
+	{
+		printf("%d, ", i);
 	}
+	printf("98\n");
+	}
+	else
+	{
+		for (int i = n; i > 98; i--)
+		{
+			printf("%d, ", i);
+		}
+		printf("98\n");
+	}
+	return (0);
 }

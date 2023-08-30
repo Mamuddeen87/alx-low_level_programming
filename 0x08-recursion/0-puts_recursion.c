@@ -22,6 +22,6 @@ void _puts_recursion(char *s)
  */
 int main(void)
 	{
-		_puts_recursion("Recursion");
+		_puts_recursion("The recursion task");
 		return (0);
 	}

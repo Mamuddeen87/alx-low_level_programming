@@ -5,7 +5,7 @@
  * second string is an n value
  *
  * @s1: the gfirst string
- * @s2: second string 
+ * @s2: second string
  * @n: no of element to concatenate from s2
  *
  * Return: poimnter to the new allocated memory

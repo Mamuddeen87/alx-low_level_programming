@@ -1,19 +1,24 @@
-#include "dog.h"
-#include <stdlib.h>
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
- * init_dog - the new dog struct whoose variable is to be
- * initialized
+ * struct dog - a struct that create a dog info
  *
- * @d: pointer to the struct of the new dog
- * @name: name of the new dog
- * @age: age of the new dog
- * @owner: the owner of the new dog
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
+ *
+ * Description: first struct with alx
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+
+typedef struct dog
 {
-	if (d == NULL)
-		return;
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
-}
+	char *name;
+	float age;
+	char *owner;
+} dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+#endif
